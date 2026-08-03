@@ -6,6 +6,7 @@ transformations in between preserve what the program means.
 The programming assignments run on a single codebase throughout: a compiler for a subset of Rust,
 written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
+| | |
 | --- | --- |
 | **Lectures** | Mon & Wed, 10:30–11:45, E3-112 |
 | **Instructor** | Yoonseung Kim · yoonseung.kim@dgist.ac.kr |
