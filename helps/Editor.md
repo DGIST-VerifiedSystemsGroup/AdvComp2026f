@@ -5,7 +5,7 @@
 Any editor works. This page covers VS Code, which is what most people use — and what I can
 actually help debug.
 
-Finish [Setup.md](helps/Setup.md) first. The editor talks to `ocaml-lsp-server`, which lives inside
+Finish [Setup.md](Setup.md) first. The editor talks to `ocaml-lsp-server`, which lives inside
 your opam switch.
 
 ---
