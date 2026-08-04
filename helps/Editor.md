@@ -8,6 +8,8 @@ actually help debug.
 Finish [Setup.md](Setup.md) first. The editor talks to `ocaml-lsp-server`, which lives inside
 your opam switch.
 
+We assume that you have create a project (`dune init proj my_proj`).
+
 ---
 
 ## 1. Open the project from inside WSL
