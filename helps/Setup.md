@@ -7,7 +7,7 @@ The compiler in this course is built on top of:
 - **OCaml 5.1** — implementation language
 - **dune** — build system
 - **Menhir** — LR(1) parser generator
-- **LLVM 15 OCaml bindings** — IR & Code generation
+- **LLVM 18 OCaml bindings** — IR & Code generation
 
 > **Windows users:** work inside **WSL2**. The Linux instructions below apply as-is.
 
@@ -15,7 +15,7 @@ The compiler in this course is built on top of:
 
 ## 1. System dependencies
 
-The OCaml bindings link against the **system LLVM 15 installation**, so this must come before opam.
+The OCaml bindings link against the **system LLVM 18 installation**, so this must come before opam.
 
 **Ubuntu / WSL2**
 
@@ -23,35 +23,35 @@ The OCaml bindings link against the **system LLVM 15 installation**, so this mus
 sudo apt update
 sudo apt install -y build-essential m4 unzip bubblewrap \
                     cmake pkg-config libffi-dev \
-                    llvm-15-dev
+                    llvm-18-dev
 ```
 
 **macOS (Homebrew)**
 
 ```bash
-brew install cmake pkg-config libffi llvm@15
+brew install cmake pkg-config libffi llvm@18
 ```
 
 ### Expose the right `llvm-config`
 
-opam must find the **version 15** `llvm-config`, not whatever else is on your system.
+opam must find the **version 18** `llvm-config`, not whatever else is on your system.
 
 **Ubuntu / WSL2**
 
 ```bash
-export PATH=/usr/lib/llvm-15/bin:$PATH
+export PATH=/usr/lib/llvm-18/bin:$PATH
 ```
 
 **macOS**
 
 ```bash
-export PATH="$(brew --prefix llvm@15)/bin:$PATH"
+export PATH="$(brew --prefix llvm@18)/bin:$PATH"
 ```
 
 Verify:
 
 ```bash
-llvm-config --version    # must print 15.0.x
+llvm-config --version    # must print 18.x.x
 ```
 
 Add this line to your `~/.bashrc` or `~/.zshrc` so it persists across shells. The same
@@ -109,7 +109,7 @@ Every later step assumes this switch is active.
 opam install -y \
   dune \
   menhir \
-  llvm.15.0.7+nnp-3 \
+  llvm.18-shared \
   ocaml-lsp-server \
   ocamlformat \
   utop
@@ -216,7 +216,7 @@ echo $?          # 42
 ## Troubleshooting
 
 **`conf-llvm` fails to install**
-`llvm-config --version` is not reporting 15. Recheck your `PATH`.
+`llvm-config --version` is not reporting 18. Recheck your `PATH`.
 
 **`Unbound module Llvm`**
 You are in a different switch. Run `eval $(opam env)` and retry.
