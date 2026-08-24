@@ -8,7 +8,7 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 | | |
 | --- | --- |
-| **Lectures** | Mon & Wed, 10:30–11:45, E3-112 |
+| **Lectures** | Mon & Wed, 10:30–11:45, E3-113 |
 | **Instructor** | Yoonseung Kim · yoonseung.kim@dgist.ac.kr |
 | **Office hours** | Mon/Wed 13:00–14:00, E7-L05 by appointment (email me) |
 | **Discussion** | [GitHub Issues](../../issues) |
@@ -40,7 +40,7 @@ Each student will be given a private GitHub repository for the programming assig
 
 ---
 
-## Assignments
+## Assignments (To be confirmed)
 
 You will receive a GitHub invitation to
 a private repository for each one — accept it, then push to `main` to submit.
@@ -49,8 +49,9 @@ a private repository for each one — accept it, then push to `main` to submit.
 | --- | --- | --- | --- |
 | **PA1** | Stack-machine compiler | TBA | TBA |
 | **PA2** | Lexer and parser | TBA | TBA |
-| **PA3** | Source code analysis (Type checker & borrow checker) | TBA | TBA |
-| **PA4** | Sparse conditional constant propagation | TBA | TBA |
+| **PA3** | Type Checker & IR Generation | TBA | TBA |
+| **PA4** | Optimization | TBA | TBA |
+
 
 
 **Late policy.** Grading uses your last commit before the cutoff.
@@ -70,9 +71,9 @@ Email me — before the deadline if you can, as soon as possible if you cannot.
 
 | | |
 | --- | --- |
-| Midterm | 30% |
-| Final | 40% |
+| Midterm | 40% |
 | Programming Assignments | 20% |
+| Project | 30% |
 | Attendance & Participation | 10% |
 
 ---
