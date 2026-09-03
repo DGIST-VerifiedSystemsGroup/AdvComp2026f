@@ -47,7 +47,7 @@ a private repository for each one — accept it, then push to `main` to submit.
 
 | | Task | Out | Due |
 | --- | --- | --- | --- |
-| **PA1** | Stack-machine compiler | TBA | TBA |
+| **PA1** | [Stack-machine compiler](hw_files/IC526_HW1_Specification.pdf) | Sep 03 | Sep 13 23:59 |
 | **PA2** | Lexer and parser | TBA | TBA |
 | **PA3** | Type Checker & IR Generation | TBA | TBA |
 | **PA4** | Optimization | TBA | TBA |
