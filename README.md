@@ -22,6 +22,7 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 >
 >[09/03] Assignment 1 is posted.
 
+Please check [Issues](../../issues) for further information.
 
 ---
 
