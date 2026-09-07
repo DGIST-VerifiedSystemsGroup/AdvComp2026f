@@ -15,6 +15,16 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 ---
 
+## Notices
+
+>[!IMPORTANT]
+>[09/07] No class due to the 22nd anniversary of DGIST.
+>
+>[09/03] Assignment 1 is posted.
+
+
+---
+
 ## Getting started
 
 Read [Setup.md](helps/Setup.md) and get the toolchain working **before the 2nd lecture**. It takes about an
