@@ -19,7 +19,7 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 >[!IMPORTANT]
 >
->[09/19] Assignment 2 is posted.
+>[09/19] Assignment 2 is posted. Run `git pull` in your local repository to get the skeleton project.
 >
 >[09/07] No class due to the 22nd anniversary of DGIST.
 >
