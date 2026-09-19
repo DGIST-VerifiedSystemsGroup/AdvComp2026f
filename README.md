@@ -18,6 +18,9 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 ## Notices
 
 >[!IMPORTANT]
+>
+>[09/19] Assignment 2 is posted.
+>
 >[09/07] No class due to the 22nd anniversary of DGIST.
 >
 >[09/03] Assignment 1 is posted.
@@ -59,7 +62,7 @@ a private repository for each one — accept it, then push to `main` to submit.
 | | Task | Out | Due |
 | --- | --- | --- | --- |
 | **PA1** | [Stack-machine compiler](hw_files/IC526_HW1_Specification.pdf) | Sep 03 | Sep 13 23:59 |
-| **PA2** | Lexer and parser | TBA | TBA |
+| **PA2** | [Lexer and parser](hw_files/IC526_PA2_Lexer_Parser_Specification.pdf) | Sep 19 | Sep 27 23:59  |
 | **PA3** | Type Checker & IR Generation | TBA | TBA |
 | **PA4** | Optimization | TBA | TBA |
 
