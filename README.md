@@ -19,6 +19,9 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 >[!IMPORTANT]
 >
+>[09/30] The midterm exam will be held on Monday, October 12, 10:30-12:00.
+> Students who need extra time may stay for up to 30 additional minutes.
+>
 >[09/19] Assignment 2 is posted. Run `git pull` in your local repository to get the skeleton project.
 >
 >[09/07] No class due to the 22nd anniversary of DGIST.
