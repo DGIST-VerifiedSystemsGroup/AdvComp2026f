@@ -19,6 +19,10 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 >[!IMPORTANT]
 >
+> [10/22] **Scores for Assignment 1 & 2 are now available** on the LMS website (lms.dgist.ac.kr). You can view your individual scores on the system. If you have any questions or concerns, please email the instructor. 
+>
+> [10/22] No class on Wed, Oct 28th, to encourage your participation in the D-Runner event.
+>
 >[10/01] Assignment 3 is posted. Use the existing skeleton file `lib/typecheck.ml`.
 >
 >[09/30] The midterm exam will be held on Monday, October 12, 10:30-12:00.
