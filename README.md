@@ -73,7 +73,7 @@ a private repository for each one — accept it, then push to `main` to submit.
 | **PA1** | [Stack-machine compiler](hw_files/IC526_HW1_Specification.pdf) | Sep 03 | Sep 13 23:59 |
 | **PA2** | [Lexer and parser](hw_files/IC526_PA2_Lexer_Parser_Specification.pdf) | Sep 19 | Sep 27 23:59  |
 | **PA3** | [Type checker](hw_files/IC526_PA3_Type_Checker_Specification.pdf)  | Oct 01 | Oct 25 23:59 |
-| **PA4** | IR Generation | TBA | TBA |
+| **IP** | Individual Project | TBA | TBA |
 
 
 
