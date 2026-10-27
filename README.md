@@ -19,6 +19,8 @@ written in OCaml. It lowers to LLVM IR and emits RISC-V assembly.
 
 >[!IMPORTANT]
 >
+> [10/27] **Midterm Scores are now available** on the LMS website (lms.dgist.ac.kr). Average score: 56.0, Standard deviation: 17.8. You can view your individual scores on the system. If you have any questions or concerns, please email the instructor.
+>
 > [10/22] **Scores for Assignment 1 & 2 are now available** on the LMS website (lms.dgist.ac.kr). You can view your individual scores on the system. If you have any questions or concerns, please email the instructor. 
 >
 > [10/22] No class on Wed, Oct 28th, to encourage your participation in the D-Runner event.
